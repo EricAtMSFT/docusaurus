@@ -14,6 +14,7 @@ import DocPaginator from '@theme/DocPaginator';
 import DocVersionSuggestions from '@theme/DocVersionSuggestions';
 import type {Props} from '@theme/DocItem';
 import TOC from '@theme/TOC';
+import ScrollToTop from '@theme/ScrollToTop';
 
 import clsx from 'clsx';
 import styles from './styles.module.css';
@@ -103,6 +104,7 @@ function DocItem(props: Props): JSX.Element {
                 <div className="markdown">
                   <DocContent />
                 </div>
+                <ScrollToTop />
               </article>
               {(editUrl || lastUpdatedAt || lastUpdatedBy) && (
                 <div className="margin-vert--xl">
