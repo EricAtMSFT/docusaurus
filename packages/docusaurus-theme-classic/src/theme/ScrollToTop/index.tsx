@@ -33,8 +33,8 @@ function ScrollToTop(): JSX.Element {
       tabIndex={0}
       className={styles.scrollToTopLink}
       onClick={scrollTop}>
-      <img className={styles.scrollToTopLogo} alt="scroll to top" /> Scroll To
-      Top
+      <img className={styles.scrollToTopLogo} alt="scroll to top" />
+      Scroll To Top
     </span>
   );
 }
